@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px; /* Increase padding for larger menu bar */
+  background-color: #333;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 50px; /* Increase logo size */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px; /* Increase margin between links */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px; /* Increase font size for links */
+  padding: 5px 10px; /* Add padding for larger clickable area */
+}
+
+.nav-links a:hover {
+  background-color: #555; /* Add hover effect for better visibility */
+  border-radius: 5px;
+}
